@@ -64,14 +64,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $currentDate = date('d-M-Y');
         $csvFileName = "download-{$currentDate}.csv";
 
-        // $csvFileName = 'download.csv';
         $csvFile = fopen($csvFileName, 'w');
 
-        // Add CSV header
         array_unshift($months, 'Domain');
         fputcsv($csvFile, $months);
 
-        // Add CSV data
         foreach ($csvData as $row) {
             fputcsv($csvFile, $row);
         }
