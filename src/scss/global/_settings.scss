@@ -1,21 +1,3 @@
-.dashicons-admin-smartclick {
-    background-image: url('../../admin/images/smartclick-icon.png');
-    background-repeat: no-repeat;
-    background-size: 11px;
-    background-position: 56%;
-}
-
-.toplevel_page_smartclick-tools {
-
-    #wpwrap {
-        background-color: var(--smartclick-color-slate-100);
-    }
-
-    #wpcontent {
-        padding: 0;
-    }
-}
-
 .sm-tracker {
     width: 100%;
     overflow-y: auto;
@@ -31,7 +13,7 @@
         justify-content: space-between;
         padding-block: 20px 16px;
         background-color: var(--smartclick-color-light);
-        border-bottom: 1px solid var(--smartclick-color-slate-300);
+        border-bottom: 1px solid var(--smartclick-color-grey-300);
 
         img {
             max-width: 200px;
@@ -40,9 +22,9 @@
 
     &__content {
         margin-top: 24px;
-        
+
         .c-btn {
-            margin-top: 12px;
+            margin-block: 12px;
         }
 
         textarea {

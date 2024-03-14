@@ -1,101 +1,64 @@
 /* variables */
 :root {
-  --smartclick-color-primary-400: hsl(229, 80%, 50%);
+  --smartclick-color-primary-darker: hsl(229, 80%, 50%);
   --smartclick-color-primary: hsl(229, 80%, 57%);
 
-  --smartclick-color-slate-900: hsl(0, 0%, 20%);
-  --smartclick-color-slate-800: hsl(0, 0%, 35%);
-  --smartclick-color-slate-700: hsl(0, 0%, 45%);
-  --smartclick-color-slate-600: hsl(0, 0%, 55%);
-  --smartclick-color-slate-500: hsl(0, 0%, 60%);
-  --smartclick-color-slate-400: hsl(0, 0%, 70%);
-  --smartclick-color-slate-300: hsl(0, 0%, 78%);
-  --smartclick-color-slate-200: hsl(0, 0%, 88%);
-  --smartclick-color-slate-100: hsl(0, 0%, 98%);
-  
+  --smartclick-color-grey-900: hsl(0, 0%, 20%);
+  --smartclick-color-grey-800: hsl(0, 0%, 35%);
+  --smartclick-color-grey-700: hsl(0, 0%, 45%);
+  --smartclick-color-grey-600: hsl(0, 0%, 55%);
+  --smartclick-color-grey-500: hsl(0, 0%, 60%);
+  --smartclick-color-grey-400: hsl(0, 0%, 70%);
+  --smartclick-color-grey-300: hsl(0, 0%, 78%);
+  --smartclick-color-grey-200: hsl(0, 0%, 88%);
+  --smartclick-color-grey-100: hsl(0, 0%, 98%);
+
   --smartclick-color-light: #fff;
   --smartclick-color-dark: #000;
 }
 
-/* box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+.dashicons-admin-smartclick {
+  background-image: url('../../admin/images/smartclick-icon.png');
+  background-repeat: no-repeat;
+  background-size: 11px;
+  background-position: 56%;
 }
 
-/* remove default margin */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-block: 0 12px;
-  font-weight: 500;
-}
+.toplevel_page_smartclick-tools {
 
-p,
-figure,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
-/* semove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
-  list-style: none;
-}
-
-/* set core root defaults */
-html {
-  scroll-behavior: smooth;
-}
-
-/* set core body defaults */
-body {
-  margin: 0;
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-  font-weight: 400;
-  overflow-x: clip;
-}
-
-/* a elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
-/* make images easier to work with */
-img,
-picture {
-  max-width: 100%;
-  display: block;
-}
-
-/* inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-/* remove all animations, transitions and smooth scroll for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-   scroll-behavior: auto;
-  }
-  
   *,
   *::before,
   *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
+    box-sizing: border-box;
+  }
+
+  figure,
+  blockquote,
+  dl,
+  dd {
+    margin: 0;
+  }
+
+  /* semove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+  ul[role='list'],
+  ol[role='list'] {
+    list-style: none;
+  }
+
+  #wpwrap {
+    background-color: var(--smartclick-color-grey-100);
+  }
+
+  #wpcontent {
+    padding: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 500;
   }
 }
