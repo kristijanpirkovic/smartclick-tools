@@ -10,17 +10,17 @@
  *
  * @link              https://https://smartclick.agency/
  * @since             1.0.0
- * @package           Smartclick_Tracker
+ * @package           Smartclick_Tools
  *
  * @wordpress-plugin
- * Plugin Name:       SmartClick Tracker
+ * Plugin Name:       SmartClick Tools
  * Description:       Ipsum qui consectetur reprehenderit consectetur ad pariatur et ipsum consectetur cillum minim nostrud incididunt incididunt sit esse ad sint enim consequat commodo anim mollit pariatur dolore ea exercitation.
  * Version:           1.0.0
  * Author:            SmartClick
  * Author URI:        https://https://smartclick.agency//
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       smartclick-tracker
+ * Text Domain:       smartclick-tools
  * Domain Path:       /languages
  */
 
