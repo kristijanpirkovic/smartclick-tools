@@ -1,0 +1,21 @@
+{
+  "name": "pirkocreative",
+  "version": "1.0.0",
+  "description": "Pirkocreative's WordPress theme for Web North harmonizes modern elegance with user-friendly design, offering seamless adaptability, intuitive customization, and optimized performance for businesses seeking a polished online presence.",
+  "scripts": {
+    "start": "parcel watch src/js/*.js --dist-dir admin/assets",
+    "build": "parcel build src/js/*.js --dist-dir admin/assets"
+  },
+  "author": "Kristijan Pirkovic",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
+    "parcel": "^2.11.0"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.2.0",
+    "gsap": "^3.12.4",
+    "mouse-follower": "^1.1.2"
+  }
+}

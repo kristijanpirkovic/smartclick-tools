@@ -1,0 +1,52 @@
+.dashicons-admin-smartclick {
+    background-image: url('../../admin/images/smartclick-circle-logo.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 60% 50%;
+}
+
+.toplevel_page_smartclick-tools {
+
+    #wpwrap {
+        background-color: var(--smartclick-color-slate-100);
+    }
+
+    #wpcontent {
+        padding: 0;
+    }
+}
+
+.sm-tracker {
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    .container {
+        padding-inline: 20px;
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-block: 20px 16px;
+        background-color: var(--smartclick-color-light);
+        border-bottom: 1px solid var(--smartclick-color-slate-300);
+
+        img {
+            max-width: 200px;
+        }
+    }
+
+    &__content {
+        margin-top: 24px;
+        
+        .c-btn {
+            margin-top: 12px;
+        }
+
+        textarea {
+            height: 200px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.c-btn {
+    display: flex;
+    gap: 5px;
+    padding: 12px 32px;
+    border: none;
+    transition: all 200ms ease;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 200ms ease;
+    width: fit-content;
+
+    .icon {
+        width: 1.25em;
+    }
+}
+
+.c-btn--primary {
+    background-color: var(--smartclick-color-primary);
+    color: var(--smartclick-color-light);
+    
+    &:hover, &:active, &:focus {
+        transform: scale(1.025);
+        color: var(--smartclick-color-light);
+        background-color: var(--smartclick-color-primary-400);
+    }
+}
