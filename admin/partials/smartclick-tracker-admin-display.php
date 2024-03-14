@@ -107,7 +107,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </form>
             <?php else : ?>
                 <h2>CSV file generated successfully!</h2>
-                <a class="c-btn c-btn--primary" href="<?= $csvFileName ?>">Download CSV <img class=".icon" src="<?= SMARTCLICK_TRACKER_URL . 'admin/images/download.svg' ?>" alt="download icon"> </a>
+                <a class="c-btn c-btn--primary" href="<?= $csvFileName ?>">Download CSV <img class="icon" src="<?= SMARTCLICK_TRACKER_URL . 'admin/images/download.svg' ?>" alt="download icon"> </a>
             <?php endif; ?>
         </div>
     </div>
